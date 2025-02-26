@@ -51,8 +51,11 @@ jobs:
         id: metrics
         env:
           SOURCES: |
-            GitHub->https://github.com
-            Facebook->https://facebook.com
+            Main Website->https://turquoisetnt.one
+            Policies Site->https://pol.turquoisetnt.one
+            Pixel Peak->pixpeak.turquoisetnt.one
+            Pixel Peak Survival Map->https://survivalmap.turquoisetnt.one
+            Pixel Peak Creative Map->https://creativemap.turquoisetnt.one
           GITHUB_TOKEN: ${{ github.token }}
           JOB_NAME: ${{ github.workflow }}
           ARTIFACT_NAME: ${{ env.ARTIFACT_NAME }}
